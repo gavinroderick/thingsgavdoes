@@ -3,6 +3,23 @@ const config = require("./config");
 const fm = require("front-matter");
 const marked = require("./marked");
 
+const createPosts = (posts) => {
+  posts.forEach((post) => {
+    if (!fs.existsSync(`${config.dev.outdir}/${post.path}`)) {
+      fs.mkdirSync(`${config.dev.outdir}/${post.path}`);
+    }
+
+    fs.writeFile(
+      `${config.dev.outdir}/${post.path}/index.html`,
+      generateHtml(post),
+      (err) => {
+        if (err) throw err;
+        console.log(`${post.path}/index.html was created successfully`);
+      }
+    );
+  });
+};
+
 const createPost = (postPath) => {
   const data = fs.readFileSync(`${config.dev.postsdir}/${postPath}.md`, "utf8");
   const content = fm(data);
@@ -34,4 +51,7 @@ const generateHtml = (data) => `
 </html>
 `;
 
-module.exports = createPost;
+module.exports = {
+  createPost: createPost,
+  createPosts: createPosts,
+};
