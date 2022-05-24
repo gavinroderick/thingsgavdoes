@@ -1,6 +1,7 @@
 const fs = require("fs");
 const config = require("./config");
 const postgenerator = require("./post-generator");
+const generateHomePage = require("./homepage");
 
 const posts = fs
   .readdirSync(config.dev.postsdir)
@@ -10,3 +11,4 @@ const posts = fs
 if (!fs.existsSync(config.dev.outdir)) fs.mkdirSync(config.dev.outdir);
 
 postgenerator.createPosts(posts);
+generateHomePage(posts);
