@@ -12,6 +12,7 @@ const homepage = (posts) => `
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <link rel=”stylesheet” href=”./assets/main.css” />
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="description" content="${config.blogDescription}" />
