@@ -1,3 +1,34 @@
+/* Jetbrains Mono Regular */
+@font-face {
+  font-family: "Jetbrains Mono";
+  src: url('fonts/JetBrainsMono-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Jetbrains Mono";
+  src: url('fonts/JetBrainsMono-Italic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* Jetbrains Mono Bold */
+@font-face {
+  font-family: "Jetbrains Mono";
+  src: url('fonts/JetBrainsMono-Bold.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* Jetbrains Mono Bold Italic*/
+@font-face {
+  font-family: "Jetbrains Mono";
+  src: url('fonts/JetBrainsMono-BoldItalic.woff2') format('woff2');
+  font-weight: 700;
+  font-style: italic;
+}
+
 body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Jetbrains Mono", Tahoma, Geneva, Verdana, sans-serif;
 }
