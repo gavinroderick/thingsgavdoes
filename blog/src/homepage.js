@@ -16,15 +16,15 @@ const homepage = (posts) => `
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="description" content="${config.blogDescription}" />
-        <title>${config.blogName}</title>
+        <title>${config.blogName} | thingsgavdoes</title>
     </head>
     <body>
         <div class="sitename">
             <header>
                 <h1>
-                  <span class="mainsite-title">thingsgavdoes</span>
+                  <a href="/" id="maintitle">thingsgavdoes</a>
                   //
-                  <span class="subsite-title">${config.blogName}</span>
+                  <a href="#" id="subtitle">${config.blogName}</a>
                 </h1>
                 <p>—</p>
                 <p>This blog is written by ${config.authorName}, ${

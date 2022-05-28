@@ -25,4 +25,4 @@ function cycleArray() {
 }
 
 randomizeListOrder();
-setInterval(cycleArray, 10000);
+setInterval(cycleArray, 5000);

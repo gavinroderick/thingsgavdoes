@@ -66,3 +66,33 @@ html {
 #what-am-i {
   color: var(--purple-plum);
 }
+
+/* container */
+.about-me {
+  margin-top: 5rem;
+  display: grid;
+  grid-template-columns: 0.5fr 1fr 2fr 0.5fr;
+}
+
+.my-photo {
+  grid-column-start: 2;
+  max-width: 20rem;
+}
+
+.my-info {
+  grid-column-start: 3;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 5fr 5fr 2fr;
+}
+
+.other-links {
+  color: var(--razzmic-berry);
+  grid-column-start: 3;
+}
+
+.other-links > a {
+  text-decoration: none;
+}
