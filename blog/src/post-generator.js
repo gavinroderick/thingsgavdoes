@@ -32,6 +32,7 @@ const generateHtml = (data) => `
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <link rel="stylesheet" href="../assets/theme.css" />
         <link rel="stylesheet" href="../assets/main.css" />
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -46,12 +47,17 @@ const generateHtml = (data) => `
       <a href="/" id="subtitle">blog</a>
     </h1>
   </header>
-        <div class="content">
-                <h1>${data.attributes.title}</h1>
-            <p>${new Date(parseInt(data.attributes.date)).toDateString()}</p>
-
-            ${data.body}
-        </div>
+  <main class="content">
+  <section>
+    <h1>${data.attributes.title}</h1>
+    <subtitle>${new Date(parseInt(data.attributes.date)).toDateString()} - ${
+  data.attributes.author
+}</subtitle>
+  </section>
+  <article>
+    ${data.body}
+  </article>
+  </main>
     </body>
 </html>
 `;

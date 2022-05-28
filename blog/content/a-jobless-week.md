@@ -3,9 +3,10 @@ title: a week of free time!
 date: 1653405762070
 description: a todo list of what I plan to achieve in my week off work
 tags: #personal #todolist #life
+author: gavin
 ---
 
-# I'm starting a new job!
+## I'm starting a new job!
 
 I've left my job at IGS. This was my first job in software after leaving university, so it's a bit bittersweet, but it's time for me to move on. Leaving behind the friends that I've made and grown with over a couple of very difficult years has been tough, but with the support they've given me, I know it's the right choice.
 
