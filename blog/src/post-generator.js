@@ -32,19 +32,24 @@ const generateHtml = (data) => `
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <link rel="stylesheet" href="../assets/main.css" />
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="description" content="${data.attributes.description}" />
         <title>${data.attributes.title} | thingsgavdoes</title>
     </head>
     <body>
-        <header>
-            <a href="/">Go back home</a>
-        </header>
+    <header>
+    <h1 class="title">
+      <a href="https://thingsgavdoes.com" id="maintitle">thingsgavdoes</a>
+      //
+      <a href="/" id="subtitle">blog</a>
+    </h1>
+  </header>
         <div class="content">
                 <h1>${data.attributes.title}</h1>
             <p>${new Date(parseInt(data.attributes.date)).toDateString()}</p>
-            <hr />
+
             ${data.body}
         </div>
     </body>
