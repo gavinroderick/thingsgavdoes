@@ -1,5 +1,5 @@
 ---
-title: introducing: todays thing
+title: "introducing:  todays thing"
 date: 1654638172444
 description: NEW! EXCITING! FRESH! short form things because I don't like tweeting
 tags: #todaysthing #bloggingaboutblogging
