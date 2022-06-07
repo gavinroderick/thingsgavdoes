@@ -1,5 +1,5 @@
 const config = {
-  blogName: "thingsgavdoes blog",
+  blogName: "blog",
   blogDescription:
     "a lot of nonsense that I think, and an attempt at becoming a better writer",
   authorName: "Gavin Roderick",

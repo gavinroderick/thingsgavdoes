@@ -12,16 +12,20 @@ const homepage = (posts) => `
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <link rel=”stylesheet” href=”./assets/main.css” />
+        <link rel="stylesheet" href="assets/main.css" />
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="description" content="${config.blogDescription}" />
-        <title>${config.blogName}</title>
+        <title>${config.blogName} | thingsgavdoes</title>
     </head>
     <body>
-        <div class="grotesk">
+        <div class="sitename">
             <header>
-                <h1>${config.blogName}</h1>
+                <h1>
+                  <a href="/" id="maintitle">thingsgavdoes</a>
+                  //
+                  <a href="#" id="subtitle">${config.blogName}</a>
+                </h1>
                 <p>—</p>
                 <p>This blog is written by ${config.authorName}, ${
   config.authorDescription
@@ -48,9 +52,7 @@ const homepage = (posts) => `
                   .join("")}
             </div>
             <footer>
-                ${`<p>© ${new Date().getFullYear()} ${
-                  config.authorName
-                }, Find the code on <a href="github.com/kartiknair/blog">GitHub</a></p>`}
+                <p>Made with ❤️ & ☕️ by <a href="https://github.com/gavinroderick">@gavinroderick</a></p>
             </footer>
         </div>
     </body>

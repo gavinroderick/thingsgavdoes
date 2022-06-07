@@ -1,0 +1,98 @@
+html {
+  /* CSS HSL */
+  --seashell: hsla(16, 46%, 92%, 1);
+  --opal: hsla(168, 24%, 68%, 1);
+  --dark-jungle-green: hsla(163, 11%, 12%, 1);
+  --razzmic-berry: hsla(311, 25%, 40%, 1);
+  --purple-plum: hsla(270, 50%, 56%, 1);
+}
+
+/* Jetbrains Mono Regular */
+@font-face {
+  font-family: "Jetbrains Mono";
+  src: url("fonts/jetbrains-mono/JetBrainsMono-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Jetbrains Mono";
+  src: url("fonts/jetbrains-mono/JetBrainsMono-Italic.woff2") format("woff2");
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* Jetbrains Mono Bold */
+@font-face {
+  font-family: "Jetbrains Mono";
+  src: url("fonts/jetbrains-mono/JetBrainsMono-Bold.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* Jetbrains Mono Bold Italic*/
+@font-face {
+  font-family: "Jetbrains Mono";
+  src: url("fonts/jetbrains-mono/JetBrainsMono-BoldItalic.woff2")
+    format("woff2");
+  font-weight: 700;
+  font-style: italic;
+}
+
+html {
+  font-family: "Jetbrains Mono", Tahoma, Geneva, Verdana, sans-serif;
+  /* background-image: linear-gradient( 110.1deg,  rgba(30,2,83,1) 44.2%, rgba(198,55,160,1) 138.2% );  dark purple-y thing*/
+  background-color: var(--seashell);
+}
+
+#maintitle {
+  color: var(--razzmic-berry);
+  text-decoration: none;
+}
+
+#subtitle {
+  color: var(--opal);
+  text-decoration: none;
+}
+
+#maintitle:hover {
+  text-decoration: underline;
+}
+
+#subtitle:hover {
+  text-decoration: underline;
+}
+
+#what-am-i {
+  color: var(--purple-plum);
+}
+
+/* container */
+.about-me {
+  margin-top: 5rem;
+  display: grid;
+  grid-template-columns: 0.5fr 1fr 2fr 0.5fr;
+}
+
+.my-photo {
+  grid-column-start: 2;
+  max-width: 20rem;
+}
+
+.my-info {
+  grid-column-start: 3;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 5fr 5fr 2fr;
+}
+
+.other-links {
+  color: var(--razzmic-berry);
+  grid-column-start: 3;
+}
+
+.other-links > a {
+  text-decoration: none;
+}
