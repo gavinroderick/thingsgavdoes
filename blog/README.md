@@ -22,3 +22,4 @@ Mostly a project to try and improve my writing. Will probably end up being a fir
 - [ ] Follow up post on how much I got done in my week off
 - [ ] SEO nonsense for no good reason
 - [ ] "Contact me" form with netlify function? For the ha ha's
+- [ ] Split out todaysthing into it's own "thing" (?)
