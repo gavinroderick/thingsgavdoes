@@ -10,14 +10,15 @@ html {
 /* Jetbrains Mono Regular */
 @font-face {
   font-family: "Jetbrains Mono";
-  src: url("fonts/jetbrains-mono/JetBrainsMono-Regular.woff2") format("woff2");
+  src: url("../fonts/jetbrains-mono/JetBrainsMono-Regular.woff2")
+    format("woff2");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Jetbrains Mono";
-  src: url("fonts/jetbrains-mono/JetBrainsMono-Italic.woff2") format("woff2");
+  src: url("../fonts/jetbrains-mono/JetBrainsMono-Italic.woff2") format("woff2");
   font-weight: normal;
   font-style: italic;
 }
@@ -25,7 +26,7 @@ html {
 /* Jetbrains Mono Bold */
 @font-face {
   font-family: "Jetbrains Mono";
-  src: url("fonts/jetbrains-mono/JetBrainsMono-Bold.woff2") format("woff2");
+  src: url("../fonts/jetbrains-mono/JetBrainsMono-Bold.woff2") format("woff2");
   font-weight: bold;
   font-style: normal;
 }
@@ -33,7 +34,7 @@ html {
 /* Jetbrains Mono Bold Italic*/
 @font-face {
   font-family: "Jetbrains Mono";
-  src: url("fonts/jetbrains-mono/JetBrainsMono-BoldItalic.woff2")
+  src: url("../fonts/jetbrains-mono/JetBrainsMono-BoldItalic.woff2")
     format("woff2");
   font-weight: 700;
   font-style: italic;
