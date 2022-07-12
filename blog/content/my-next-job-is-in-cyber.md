@@ -1,7 +1,8 @@
 --- 
-title: my next job is in cyber
+title: "my next job is in cyber"
 date: 1657630690921
-description: a tall tale of one devs journey to upskill himself
+description: "a tall tale of one devs journey to upskill himself"
+tags: #learning #upskilling
 
 --- 
 
