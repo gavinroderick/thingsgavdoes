@@ -3,6 +3,7 @@ title: "introducing:  todays thing"
 date: 1654638172444
 description: NEW! EXCITING! FRESH! short form things because I don't like tweeting
 tags: #todaysthing #bloggingaboutblogging
+author: gavin
 ---
 
 So. Mere minutes after uploading my last (first) blog post, I had a pretty sucky realisation.

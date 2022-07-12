@@ -1,10 +1,10 @@
---- 
+---
 title: "my next job is in cyber"
 date: 1657630690921
 description: "a tall tale of one devs journey to upskill himself"
 tags: #learning #upskilling
-
---- 
+author: gavin
+---
 
 i'm upskilling myself. taking the governments advice, and reskilling in "cyber" 🙄
 
