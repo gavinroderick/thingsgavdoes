@@ -5,6 +5,8 @@ const things = [
   "converted coffee snob",
   "pushover to a spoiled resue cat",
   "parnter to an amazing woman",
+  "puffin enthusiast",
+  "tree afficionado",
 ];
 
 function randomizeListOrder() {
