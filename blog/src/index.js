@@ -10,5 +10,6 @@ const posts = fs
 
 if (!fs.existsSync(config.dev.outdir)) fs.mkdirSync(config.dev.outdir);
 
+posts.sort((p1, p2) => p1.attributes.date < p2.attributes.date)
 postgenerator.createPosts(posts);
 generateHomePage(posts);
